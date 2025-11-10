@@ -1,0 +1,28 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+!data/raw/.keep  # keep folder structure
+data/processed/*
+!data/processed/.keep
+
+# Reports and charts
+reports/*.xlsx
+reports/charts/*.png
+
+# IDE configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
