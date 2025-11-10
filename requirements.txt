@@ -1,0 +1,17 @@
+# Core libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Excel export
+openpyxl>=3.1.2
+
+# Notebook support (optional)
+jupyter>=1.0.0
+ipykernel>=6.26.0
+
+# Optional helper (if you use interactive hover labels)
+mplcursors>=0.5.3
