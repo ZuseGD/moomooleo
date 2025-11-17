@@ -1,5 +1,4 @@
 # README
-readme = """# CM4 Analysis — Competitor Meta Breakdown
 
 This repository contains a full analytical workflow for CM4 (Leo Cup) data, including:
 - Data cleaning & normalization
@@ -12,31 +11,6 @@ This repository contains a full analytical workflow for CM4 (Leo Cup) data, incl
 
 ## 🔧 Project Structure
 
-cm4-analysis/
-│
-├── README.md
-├── data/
-│ ├── raw/ # raw spreadsheets
-│ ├── cleaned/ # cleaned datasets
-│ └── lookup_tables/ # role/style/debuffer mappings
-│
-├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_finals_analysis.ipynb
-│ ├── 04_rounds_analysis.ipynb
-│ └── 05_visualizations.ipynb
-│
-├── scripts/
-│ ├── cleaning_utils.py
-│ ├── classification_utils.py
-│ ├── finals_extraction.py
-│ ├── round_extraction.py
-│ └── plotting_functions.py
-│
-└── outputs/
-├── figures/
-└── summary_excel/
 
 ## 📊 Highlights
 - **Bubble charts** showing meta share vs win rate
